@@ -1,0 +1,22 @@
+{
+  "name": "modulo11",
+  "version": "1.0.0",
+  "description": "modulo 11 check digit",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": {
+    "name": "Fabio Almeida",
+    "email": "fabiorecife@gmail.com",
+    "url": "https://github.com/fabiorecife"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fabiorecife/modulo11.git "
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.5.0"
+  }
+}
