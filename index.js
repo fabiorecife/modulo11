@@ -4,9 +4,10 @@ function Modulo11( base, size) {
 }
 
 function sumDigits (modulo11, value) {
-    let  mult = modulo11.base
-    let sum = 0
-    for (let i = value.length-1; i >= 0; i--) {
+    var  mult = modulo11.base
+    var sum = 0
+    var i
+    for ( i = value.length-1; i >= 0; i--) {
         sum += (mult*value[i])
         if (mult == modulo11.size) mult = modulo11.base; else mult++
     }
@@ -14,9 +15,9 @@ function sumDigits (modulo11, value) {
 }
 
 Modulo11.prototype.checkDigit = function (value) {
-    let sum = sumDigits(this, value)
-    let remainder = (sum % 11)
-    let result =  remainder < 2 ? 0 : 11 - remainder
+    var sum = sumDigits(this, value)
+    var remainder = (sum % 11)
+    var result =  remainder < 2 ? 0 : 11 - remainder
     return result
 }
 
