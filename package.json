@@ -1,5 +1,5 @@
 {
-  "name": "modulo11",
+  "name": "@fabioalmeida/modulo11",
   "version": "1.0.1",
   "description": "modulo 11 check digit",
   "main": "index.js",
