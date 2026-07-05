@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fabiorecife/modulo11.git "
+    "url": "git+https://github.com/fabiorecife/modulo11.git"
   },
   "license": "ISC"
 }
